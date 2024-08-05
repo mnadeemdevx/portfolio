@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">
+                <a href="#home" className="nav__logo">
                     MDEV
                 </a>
                 <div className={`nav__menu ${toggle && "show-menu"}`}>

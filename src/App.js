@@ -1,4 +1,4 @@
-import { Home, About, Header } from "./components";
+import { Home, About, Header, Skills } from "./components";
 
 import "./App.css";
 
@@ -9,6 +9,7 @@ function App() {
             <main className="main">
                 <Home />
                 <About />
+                <Skills />
             </main>
         </>
     );
